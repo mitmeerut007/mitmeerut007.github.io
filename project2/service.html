@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>HOSPITAL WEB</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "icon" type = "image/png" href = "images/logo2.png">
+</head>
+<body>
+    <div style="height: 50vh;" class="header">
+      <nav> 
+         <div class="logo">
+                <a href=""><img src="images/logo2.png"></a>
+            </div>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="blog-layout.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+         </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div style="margin-top: -10%;" class="title">
+         <h1>OUR SERVICES</h1>  
+      </div>
+
+  </div>
+      
+<!--Our Services Section-->
+<section>
+        <div class="ourservices">
+            <div class="heading">
+                <h1>Our Services</h1>
+                <p>
+                    Not the answer you're looking for? Printing and typesetting inLorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry’s Lorem</p>
+            </div>
+            <div class="treat">
+                <div class="treatment">
+                    <img src="images/services/11.jpg" alt="">
+                    <h1>Covid Treatment</h1>
+                    <p>We Provide the good surgery</p>
+                    <a href="" class="btn2">Ask Doctor</a>
+                </div>
+                <div class="treatment">
+                     <img src="images/services/12.jpg" alt="">
+                    <h1>Heart Treatment</h1>
+                    <p>We Provide the good surgery</p>
+                    <a href="" class="btn2">Ask Doctor</a>
+                </div>
+                <div class="treatment">
+                    <img src="images/services/13.jpg" alt="">
+                    <h1>Limbs Treatment</h1>
+                    <p>We Provide the good surgery</p>
+                    <a href="" class="btn2">Ask Doctor</a>
+                </div>`
+            </div>
+        </div>
+    </section>
+<!--Our Services Section-->
+<section class="footer">
+         <p>Designed and Developed by &copy Utkarsh Kushwaha</p>
+         <div class="icon">
+               <a href="" class="fa fa-facebook"></a>
+               <a href="" class="fa fa-twitter"></a>
+               <a href="" class="fa fa-instagram"></a>
+               <a href="" class="fa fa-linkedin"></a>
+               <a href="" class="fa fa-youtube"></a>
+            </div>
+      </section>
+
+    <!--------javascript for toggle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+         navLinks.style.right = "0";
+      }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+      }
+
+ </script>
+
+
+
+
+ </body> 
+ </html>

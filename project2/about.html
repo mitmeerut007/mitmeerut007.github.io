@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>HOSPITAL WEB</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "icon" type = "image/png" href = "images/logo2.png">
+</head>
+<body>
+    <div style="height: 50vh;" class="header">
+      <nav> 
+         <div class="logo">
+                <a href=""><img src="images/logo2.png"></a>
+            </div>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="blog-layout.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+         </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div style="margin-top: -10%;" class="title">
+         <h1>We Give You a Better Care</h1>   
+      </div>
+
+  </div>
+
+ <section class="abouthospital">
+            <div class="treat">
+                <div class="about-col">
+                     <h1>About Hospital</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. <br>
+                    <br>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.A hospital is a health care institution providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment.[1] The best-known type of hospital is the general hospital, which typically has an emergency department to treat urgent health problems ranging from fire and accident victims to a sudden illness. A district hospital typically is the major health care facility in its region, with many beds for intensive care and additional beds for patients who need long-term care.</p>
+                <a href="https://mitmeerut.ac.in/gallerydetails/12" class="btn1 red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                <img src="images/about/1.jpg" alt="">
+            </div>
+            
+            </div>
+
+     </section>
+
+
+<section class="footer">
+         <p>Designed and Developed by &copy Utkarsh Kushwaha</p>
+         <div class="icon">
+               <a href="" class="fa fa-facebook"></a>
+               <a href="" class="fa fa-twitter"></a>
+               <a href="" class="fa fa-instagram"></a>
+               <a href="" class="fa fa-linkedin"></a>
+               <a href="" class="fa fa-youtube"></a>
+            </div>
+      </section>
+
+    <!--------javascript for toggle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+         navLinks.style.right = "0";
+      }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+      }
+
+ </script>
+
+
+
+
+ </body> 
+ </html>

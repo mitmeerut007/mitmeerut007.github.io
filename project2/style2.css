@@ -1,0 +1,360 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Noto Serif', serif;
+ }
+  body{
+   font-family: 'Open Sans', sans-serif;
+   background-color: #C8DAA9;
+ }
+  .header{
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(14, 53, 14)),
+    url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+ nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+ }
+ nav img{
+   width: 150px;
+ }
+
+ .nav-links{
+   font-weight: bold;
+   flex: 1;
+   text-align: right;
+   
+ }
+ .nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+
+ }
+  .nav-links ul li a{
+   color: #000;
+   text-decoration: none;
+   font-size: 13px;
+   top: fixed;
+
+  }
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #000;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+ .nav-links ul li:hover::after{
+   width: 100%;
+  }
+
+
+.title{
+   width: 90%;
+   color: rgb(14, 53, 14);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.title h1{
+    font-weight: bold;
+   font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.title p{
+   margin: 10px 0 40px;
+   font-size: 15px;
+   color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn1{
+   display: inline-block;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 13px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+.btn1:hover{
+   border: 1px solid #000;
+   background-color: rgb(14, 53, 14);
+   color: #FFF;
+   transition: 0.6s ease;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(14, 53, 14);
+
+}
+
+/*-----mobile: 320px-----*/
+nav .fa{
+   display: none;
+}
+
+@media  (max-width: 700px) {
+    .logo img{
+    width: 50px;
+    height: 50px;
+}
+  .title h1 {
+      font-size: 26px;
+   }
+   .nav-links ul li{
+      display: block;
+   }
+   .nav-links{
+      position: fixed;
+      background:  #C8DAA9;
+      height:100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 1;
+      transition: 0.5s;
+   }
+   nav .fa{
+      display: block;
+      color: rgb(14, 53, 14);
+      margin: 10px;
+      font-size: 20px;
+      cursor: pointer;
+   }
+   .nav-links ul{
+      padding: 30px;
+
+   }
+   .nav-links ul li{
+      border: 2px solid white;
+       text-align: center;
+   }
+   .nav-links ul li:hover{
+   border: 1px solid #000;
+   background-color: #000;
+   color: #000;
+   transition: 0.5s;
+}
+.logo{
+    padding: 40px 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1200;
+    color: rgb(14, 53, 14);
+}
+}
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(14, 53, 14);
+  color: #fff;
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+@media  (max-width: 700px) {
+   .container {
+  width: 70%;
+  height: 80vh;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 60%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(14, 53, 14);
+  color: #fff;
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+}
+
+/*--------footer--------*/
+
+.footer{
+   width: 100%;
+   text-align: center;
+   padding: 40px 0;
+}
+.footer p{
+   padding: 20px;
+}
+.icon .fa{
+   color: rgb(14, 53, 14);
+   margin: 0 13px;
+   cursor: pointer;
+   padding: 10px 10px;
+   background-color: #fff;
+   border-radius: 30px;
+}
+@media(max-width: 700px){
+    .footer p{
+   padding: 10px;
+   font-size: 10px;
+}
+.icon .fa{
+   color: rgb(14, 53, 14);
+   margin: 0 5px;
+   cursor: pointer;
+   padding: 5px 5px;
+   background-color: #fff;
+   border-radius: 30px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOSPITAL WEB</title>
+<link rel="stylesheet" type="text/css" href="blogstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "icon" type = "image/png" href = "images/logo2.png">
+<body>
+
+  <div class="header">
+      <nav> 
+         <div class="logo">
+                <a href=""><img src="images/logo2.png"></a>
+            </div>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="about.html">SERVICES</a></li>
+            <li><a href="blog-layout.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+         </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="title">
+         <h1>OUR BLOG</h1>  
+      </div>
+  </div>
+ <div class="row">
+ 	<div class="left-column">
+ 	  <div class="card">
+ 		<h2>TITLE HEADING</h2>
+ 		<h5>Title description, Dec 7, 2017</h5>
+ 		<img src="images/blog1.jpg" alt="blog "/>
+ 		<p>Some text..</p>
+ 		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+ 	  </div>
+ 	  <div class="card">
+ 		<h2>TITLE HEADING</h2>
+ 		<h5>Title description, Dec 7, 2017</h5>
+ 		<img src="images/blog3.jpg" alt="blog "/>
+ 		<p>Some text..</p>
+ 		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 	  </div>
+ 	</div>
+
+ 	<div class="right-column">
+ 		<div class="card">
+ 			 <h2>About Me</h2>
+ 			 <img src="images/2.jpg" alt="me"/>
+ 			 <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+ 		</div>
+ 		<div class="card">
+ 			 <h3>Popular Post</h3>
+ 			 <img src="images/blog2.webp" alt="popular"/>
+ 			 <img src="images/blog4.jpg" alt="popular"/>
+ 			 <img src="images/surgeons.jpg" alt="popular"/>
+             <img src="images/blog5.jpg" alt="popular"/>
+ 		</div>
+ 		<div class="card">
+ 			<h3>Follow Me</h3>
+ 			<p>Some Text...</p>
+ 		</div>
+ 	</div>
+ </div>
+
+<section class="footer">
+         <p>Designed and Developed by &copy Utkarsh Kushwaha</p>
+         <div class="icon">
+               <a href="" class="fa fa-facebook"></a>
+               <a href="" class="fa fa-twitter"></a>
+               <a href="" class="fa fa-instagram"></a>
+               <a href="" class="fa fa-linkedin"></a>
+               <a href="" class="fa fa-youtube"></a>
+            </div>
+      </section>
+<!--------javascript for toggle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+         navLinks.style.right = "0";
+      }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+      }
+
+ </script>
+</body>
+</head>

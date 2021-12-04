@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>HOSPITAL WEB</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "icon" type = "image/png" href = "images/logo2.png">
+</head>
+<body>
+    <div style="height: 50vh;" class="header">
+      <nav> 
+         <div class="logo">
+                <a href=""><img src="images/logo2.png"></a>
+            </div>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="blog-layout.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+         </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div style="margin-top: -10%;" class="title">
+         <h1>GALLERY</h1>   
+      </div>
+
+  </div>
+
+
+
+   <section>
+        
+
+        <div class="gallerysection">
+            <img src="images/gallery/1.jpg" alt="">
+            <img src="images/gallery/2.jpg" alt="">
+            <img src="images/gallery/3.jpg" alt="">
+            <img src="images/gallery/4.jpg" alt="">
+            <img src="images/gallery/5.jpg" alt="">
+            <img src="images/gallery/6.jpg" alt="">
+        </div>
+</section>
+
+
+
+    
+
+
+<section class="doctors">
+         <h1>Our Doctors</h1>
+         <p>We Changes Your Probelems into Solutions.</p>
+         <div class="treat">
+            <div class="doctors-col">
+                <img src="images/doctors/t1.jpg" alt="">
+               <h3>Dr. Ajay Gupta</h3>
+               <h6>Neuro Surgery</h6>
+            </div>
+         <div class="doctors-col">
+                <img src="images/doctors/t2.jpg" alt="">
+               <h3>Dr. Nilesh dubey</h3>
+               <h6>Heart surgeon</h6>
+               
+            </div>
+         <div class="doctors-col">
+                <img src="images/doctors/t3.jpg" alt="">
+               <h3>Dr. Abhishek Bhardwaj</h3>
+               <h6>Ophthalmology</h6>
+               
+            </div>
+            <div class="doctors-col">
+                <img src="images/doctors/t4.jpg" alt="">
+               <h3>Dr. Abhilasha Jain</h3>
+               <h6>Orthology expert</h6>
+               
+            </div>
+      </section>
+
+
+<section class="footer">
+         <p>Designed and Developed by &copy Utkarsh Kushwaha</p>
+         <div class="icon">
+               <a href="" class="fa fa-facebook"></a>
+               <a href="" class="fa fa-twitter"></a>
+               <a href="" class="fa fa-instagram"></a>
+               <a href="" class="fa fa-linkedin"></a>
+               <a href="" class="fa fa-youtube"></a>
+            </div>
+      </section>
+
+    <!--------javascript for toggle menu----->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+         navLinks.style.right = "0";
+      }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+      }
+
+ </script>
+
+
+
+
+ </body> 
+ </html>

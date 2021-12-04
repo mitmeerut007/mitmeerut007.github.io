@@ -1,0 +1,259 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:20px;
+	background-color: #C8DAA9;
+}
+*{
+	box-sizing: border-box;
+}
+.header{
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(14, 53, 14)),
+    url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+ }
+ nav{
+   display: flex;
+   padding: 2% 6%;
+   justify-content: space-between;
+   align-items: center;
+ }
+ nav img{
+   width: 150px;
+ }
+
+ .nav-links{
+   font-weight: bold;
+   flex: 1;
+   text-align: right;
+   
+ }
+ .nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+
+ }
+  .nav-links ul li a{
+   color: #000;
+   text-decoration: none;
+   font-size: 13px;
+   top: fixed;
+
+  }
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #000;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+ .nav-links ul li:hover::after{
+   width: 100%;
+  }
+
+
+.title{
+   width: 90%;
+   color: rgb(14, 53, 14);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.title h1{
+    font-weight: bold;
+   font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -10%;
+}
+.title p{
+   margin: 10px 0 40px;
+   font-size: 15px;
+   color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn1{
+   display: inline-block;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 13px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+.btn1:hover{
+   border: 1px solid #000;
+   background-color: rgb(14, 53, 14);
+   color: #FFF;
+   transition: 0.6s ease;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(14, 53, 14);
+
+}
+
+/*-----mobile: 320px-----*/
+nav .fa{
+   display: none;
+}
+
+@media  (max-width: 700px) {
+    .logo img{
+    width: 50px;
+    height: 50px;
+}
+  .title h1 {
+      font-size: 26px;
+      margin-top: -30%;
+   }
+   .nav-links ul li{
+      display: block;
+   }
+   .nav-links{
+      position: fixed;
+      background:  #C8DAA9;
+      height:100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 1;
+      transition: 0.5s;
+   }
+   nav .fa{
+      display: block;
+      color: rgb(14, 53, 14);
+      margin: 10px;
+      font-size: 20px;
+      cursor: pointer;
+   }
+   .nav-links ul{
+      padding: 30px;
+
+   }
+   .nav-links ul li{
+      border: 2px solid white;
+       text-align: center;
+   }
+   .nav-links ul li:hover{
+   border: 1px solid #fff;
+   background-color: #fff;
+   color: #000;
+   transition: 0.5s;
+}
+.logo{
+    padding: 40px 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 1200;
+    color: rgb(14, 53, 14);
+}
+}
+
+
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+h2{
+	color:#000000;
+margin:1.5 0px;	
+}
+.left-column{
+float: left;
+width: 75%;
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.card{
+	padding: 20px;
+	background-color: #ffffff;
+ margin-top:20px;
+}
+
+.card img{
+	width: 100%;
+}
+
+
+.right-column .card img{
+	margin-bottom: 10px;
+}
+
+
+footer{
+	background-color: #dddddd;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+/*--------footer--------*/
+
+.footer{
+   width: 100%;
+   text-align: center;
+   padding: 40px 0;
+}
+.footer p{
+   padding: 20px;
+}
+.icon .fa{
+   color: rgb(14, 53, 14);
+   margin: 0 13px;
+   cursor: pointer;
+   padding: 10px 10px;
+   background-color: #fff;
+   border-radius: 30px;
+}
+@media(max-width: 700px){
+    .footer p{
+   padding: 10px;
+   font-size: 10px;
+}
+.icon .fa{
+   color: rgb(14, 53, 14);
+   margin: 0 5px;
+   cursor: pointer;
+   padding: 5px 5px;
+   background-color: #fff;
+   border-radius: 30px;
+}
+
+
