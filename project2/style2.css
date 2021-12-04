@@ -277,7 +277,7 @@ textarea {
   resize: vertical;
 }
 button[type="submit"] {
-  width: 60%;
+  width: 100%;
   border: none;
   outline: none;
   padding: 16px;
