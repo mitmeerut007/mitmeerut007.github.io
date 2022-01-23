@@ -24,7 +24,7 @@ $(function () {
                     message: message
                 },
                 cache: false,
-                success: function () {
+                error: function () {
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
@@ -34,7 +34,7 @@ $(function () {
                             .append('</div>');
                     $('#contactForm').trigger("reset");
                 },
-                error: function () {
+                success: function () {
                     $('#success').html("<div class='alert alert-succes'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>");
