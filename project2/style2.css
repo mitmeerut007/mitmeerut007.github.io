@@ -249,7 +249,7 @@ button[type="submit"]:hover {
 @media  (max-width: 700px) {
    .container {
   width: 70%;
-  height: 80vh;
+  height: 80%;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -277,7 +277,7 @@ textarea {
   resize: vertical;
 }
 button[type="submit"] {
-  width: 60%;
+  width: 100%;
   border: none;
   outline: none;
   padding: 16px;
