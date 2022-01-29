@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Hotel</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custome css file link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" type = "image/png" href = "img/linklogo.png">
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>H</span>otel</a>
+        <nav class="navbar">
+             <a href="#home">Home</a>
+             <a href="#packages">packages</a>
+             <a href="#services">services</a>
+             <a href="#gallery">gallery</a>
+             <a href="#review">review</a>
+             <a href="#contact">contact</a>
+             <a href="#book">book</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" placeholder="Enter your Email">
+         <input type="password" class="box" placeholder="Your password">
+         <input type="submit" value="login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember me</label>
+         <p>forgrt password? <a href="#">click here</a></p>
+         <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>welcome to A global icon of luxury</h3>
+        <p>dicover new places with us, luxury awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="img/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="img/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="img/vid-1.mp4" id="video-slider"loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+        
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="img/p-1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Nine Palms is spacious, charming 5-bedroom bungalow spread over several acres of lawns and tree groves and furnishings in colors that exude joy.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Chennai</h3>
+                <p>The conveniently located luxury hotel has a distinctive design and unmissable views of the hills. Luxurious and fluid, it is inspired by the Dravidian.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> 
+                Hawaii </h3>
+                <p>Bastar bell metal work, Gond artwork and intricate stone carvings adorn the guest areas and showcase the rich cultural heritage of the region.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Paris </h3>
+                <p>Each hotel comes with its own rooftop machan, indoor and outdoor shower areas and a private sit-out surrounded by the woods and strong carbon fiber.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Tokyo </h3>
+                <p>Enjoy the charm and spaciousness of this lovingly restored, 3-bedroom hotel while soaking in the calmness of the estate around you.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/p-6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Jaipur</h3>
+                <p>A spacious abode imagined for relaxing getaways for those who also want to experience the quaint charm.This spacious two storey bungalow.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- packages section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>If actual architectural wonders are more your thing, you can sleep affordably yet chicly on the edge of Cambodia’s most-renowned World Heritage Site at the 238-room.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>The food and beverage industry represents a huge sector of services within the hospitality industry that include preparing, presenting, and serving food and beverages.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>
+                One of our highest priorities is the health, safety, and security of our guests, team members, and business partners. COVID-19 has fundamentally changed the way we live.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>India made the strongest showing of any single country, with a total of 12 properties. Indian hotels and resorts in the Top 100 include No. 8.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>And since a growing number of us are also using special day passes from the big hotel chains to use their guest rooms as daytime offices, the presumption of fast and reliable.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Adventure Tour Resorts Kampty Fall is nestled in the most beautiful hill station of Uttarakhand, Mussoorie. Being a popular tourist destination, Mussoorie is well-linked with a network of bus services.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- services section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="img/g-1.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-2.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-3.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-4.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-5.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-6.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-7.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-8.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem Ipsum is simply dummy text of the farhan and typesetting industry.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="img/g-9.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>It was fabulous stay here will recommend to other very good staff home friendly atmosphere</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section start -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic1.png" alt="">
+                    <h3>Lalisa Bey</h3>
+                    <p>Everything was great. It was a comfortable stay. The staff was polite and cooperative. Rooms were big, Airy and with good lightings.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic2.png" alt="">
+                    <h3>Edward Bey</h3>
+                    <p>Very beautiful hotal and food quality is the best.Nice cleaning hotal and staff is very good behaviour.I impressed hotal sarvice.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic3.png" alt="">
+                    <h3>Jenna Bey</h3>
+                    <p>Room size not as per shown in the app.. No ventilation.. Powercut for hours resulting in black out... I dont recommend this hotel to anyone.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="img/pic4.png" alt="">
+                    <h3>Edward Bey</h3>
+                    <p>It was a good experience and I will stay again in this hotel very near to station and very nice hotel.lovely experience.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img src="img/contact3.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder=" Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="img/contact4.jpg" alt="">
+        </div>
+
+        <form action="">
+              <div class="inputBox">
+                  <h3>where to</h3>
+                  <input type="text" placeholder="Place Name">
+              </div>
+              <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="Number of Guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book Now">
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Our hotel that provides lodging, meals, and other services to the traveling public on a commercial basis. A motel performs the same functions as a hotel but in a format designed for travelers using automobiles.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">USA</a>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">philippines</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>Utkarsh Kushwaha</span> | all rights reserved!! </h1>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
+</body>
