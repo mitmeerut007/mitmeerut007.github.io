@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    display: grid;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: #F6EDED!important;
+}
+.title h1{
+    font-weight: 600;
+    text-align: center;
+}
+.section{
+    width: 100%;
+   height: 100%
+    background-color: #ddd;
+}
+.container2{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: 60vh;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color:#5d5d5d;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #474545;
+}
+.content-section .content .button{
+    margin-top: 30px;
+    text-align: center!important;
+
+}
+.content-section .content .button a{
+    background-color: #fff;
+    padding:8px 20px;
+    text-decoration: none;
+    color:#000;
+    border: 3px solid #f44336;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.content-section .content .button a:hover{
+    background-color: #fff;
+    color:#000;
+    border:3px solid black;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color:#000;
+    font-size: 30px;
+    padding:0px 10px;
+}
+.content-section .social i:hover{
+    color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+    .container2{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top:50px;
+}
+.content-section{
+    float:none;
+    width:100%;
+    display: block;
+    margin:auto;
+}
+.image-section{
+    float:none;
+    width:100%;
+    
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+}
+.content-section .title{
+    text-align: center;
+    font-size: 19px;
+}
+.content-section .content .button{
+    text-align: center;
+}
+.content-section .content .button a{
+    padding:9px 20px;
+}
+.content-section .social{
+    text-align: center;
+}
+
+}
+
+
+
+
+.title2{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 600;
+    margin: 10px 0;
+    position: relative;
+}
+
+.title2::after{
+    content: "";
+    position: absolute;
+    width: 20%; height: 2px;
+    bottom: -10px; left: 50%;
+    transform: translate(-50%);
+}
+
+.team-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.member{
+    flex: 1 1 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    max-width: 300px;
+    transition: all 0.3s;
+}
+
+.member:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translateY(-20px);
+}
+
+.member img{
+    display: block;
+    width: 150px; height: 150px;
+    object-fit: cover;
+    border:4px solid #f45636;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.member h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.member p{
+    font-size: 15px;
+    color: #838383;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
