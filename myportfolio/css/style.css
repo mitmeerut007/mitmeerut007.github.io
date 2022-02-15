@@ -3,6 +3,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: none!important;
+
 }
 
 html {
@@ -22,18 +24,17 @@ body {
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #fff;
 }
  
 a {
   color: #0BCEAF;
-  text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
   color: #078571;
-  text-decoration: underline;
+  text-decoration: none;
 }
  
 h1,h2,h3,h4,h5,h6,p{
@@ -127,6 +128,7 @@ h1,h2,h3,h4,h5,h6,p{
 .btn{
   border: 2px solid rgb(29, 105, 247);
 } 
+
 .btn-white{
   background-color: #ffffff;
   border:2px solid #ffffff;
@@ -135,13 +137,16 @@ h1,h2,h3,h4,h5,h6,p{
   border: 2.4px solid #ffffff;
   color: #ffffff;
 }
-@media (max-width: 700px) {
+@media (max-width: 990px) {
   .about-img{
-    margin-left: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
     right: 0px;
     top: 30px;
    }
 }
+
 /*===================== Progress Bar ====================*/
 
 .progress {
@@ -186,6 +191,7 @@ h1,h2,h3,h4,h5,h6,p{
   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
  
 }
+
 /* =================== Portfolio section ==================*/
 
 
@@ -278,3 +284,4 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateY(-15px);
   }
 }
+
