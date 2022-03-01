@@ -1,4 +1,8 @@
- .u-section-1 {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} 
+.u-section-1 {
   min-height: 1301px;
 }
 
