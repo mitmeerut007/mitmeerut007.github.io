@@ -1,4 +1,8 @@
- .u-section-1 {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} 
+.u-section-1 {
   min-height: 1301px;
 }
 
@@ -13,7 +17,7 @@
   height: 721px;
   object-position: 2.6% 50%;
   background-position: 50% 50%;
-  background-image: url("images/vbvb-min.jpg");
+  background-image: url("images/vbvb-min2.jpg");
   margin: -558px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
