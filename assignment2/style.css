@@ -1,0 +1,27 @@
+
+body{
+  font-family: 'PT Serif', serif;
+font-family: 'Roboto Serif', serif;
+}
+.row{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+.row h1{
+  font-size: 5rem;
+  color: rgb(172, 187, 87);
+}
+.row p{
+  font-size: 8px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+.vl{
+  border-left: 2px solid rgb(172, 187, 87);;
+  height: 200px;
+}
+h5{
+  color: rgb(172, 187, 87);
+}

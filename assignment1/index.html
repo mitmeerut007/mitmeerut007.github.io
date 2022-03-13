@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+<body>
+      <div class="container-fluid">
+        <div class="row mx-lg-n5 p-5">
+            <div class="col-lg-4">
+              <h4 class="font-weight-bold">DISCREPTION</h4>
+              <p>
+                A paragraph is a series of sentences that are organized and coherent, and are all
+                 related to a single topic. Almost every piece of writing you do that is longer than
+                  a few sentences should be organized into paragraphs.
+              </p>
+              <br><br>
+              <h4 class="font-weight-bold">MATERIAL</h4>
+              <p>
+                A paragraph is a series of sentences that are organized and coherent, and are all
+                 related to a single topic. Almost every piece of writing you do that is longer than
+                  a few sentences should be organized into paragraphs. This is because paragraphs show
+                   a reader where the
+                 subdivisions of an essay begin and end, and thus help the
+                  reader see the organization of the essay and grasp its main points.
+              </p>
+              <br><br>
+              <h4 class="font-weight-bold">GARMENT WEIGHT</h4>
+              <p>
+                A paragraph is a series of sentences that are organized and coherent, and are all
+                 related to a single topic. 
+              </p>
+            <br>
+                <div class="slidecontainer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-2">
+                        <h6 style="float: left;">Light</h6> 
+                      </div>
+                      <div class="col-lg-4  col-md-4 col-sm-2">
+                        <h6 style="text-align: center;">Medium</h6> 
+                      </div>
+                      <div class="col-lg-4  col-md-4 col-sm-2">
+                        <h6 style="float: right;">Heavy</h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <input type="range" min="light" max="heavy" value="medium" class="slider" id="myRange">
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+              <h4 class="font-weight-bold">SPECIFICATIONS</h4>
+              <div style="margin-left: -5%;">
+              <ul class="a">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+                <li>Coca Cola</li>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+              </ul>
+            </div>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="font-weight-bold">ESSENTIAL</h4>
+              <p>
+                A paragraph is a series of sentences that are organized and coherent, and are all
+                 related to a single topic. Almost every piece of writing you do that is longer than
+                  a few sentences should be organized into paragraphs. This is because paragraphs show.
+              </p>
+            </div>
+          </div>
+        
+      </div>
+    
+      <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        </script>    
+</body>
+</html>
