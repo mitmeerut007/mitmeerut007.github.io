@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Utkarsh Kushwaha</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+<body>
+    <!-- the menu starts here -->
+    <div class="navbar">
+  
+      <label for="togglericon" class="toggler" checked></label>
+      <input type="checkbox" id="togglericon" class="toggler" />
+  
+      <div class="brand">
+        <span class="brand-icon">⚛</span>
+        <span class="brand-name">Brand Name</span>
+      </div>
+  
+      <div class="nav">
+        <!-- reposition the menu with: -->
+        <!-- div class="nav at-center" -->
+        <!-- div class="nav at-right"  -->
+  
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+  
+        <div class="dropdown">
+          <label for="toggle-1">Services</label>
+          <input type="checkbox" id="toggle-1" />
+          <ul>
+            <li><a href="#">Internet Of Things</a></li>
+            <li><a href="#">Game Development</a></li>
+            <li><a href="#">Game Design</a></li>
+            <li><a href="#">History Telling</a></li>
+          </ul>
+        </div>
+  
+        <div class="dropdown">
+          <label for="toggle-2">Social</label>
+          <input type="checkbox" id="toggle-2" />
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Tiktok</a></li>
+            <li><a href="#">Medium</a></li>
+          </ul>
+        </div>
+        <a href="#">Contact</a>
+        <form>
+          <input type="text" placeholder="search" name="search" />
+          <button>🔎</button>
+        </form>
+      </div>
+    </div>
+    <!-- the menu ends here -->
+  
+    <main>
+      <h1>CSS <strong>only</strong><br>RESPONSIVE<br>NAVBAR</h1>
+      <p>This is an effort to build a css + html navbar code that can be copied / pasted into projects.<br />
+        Because one day I was a newbie and I wanted to do this kind of thing, without dealing with javascript / sass / preprocessors / frameworks mambo jambos and I couldn't find simple solutions anywhere.</p>
+      <p>I tried to make everything readable, clear with minimum setup.</p>
+      <p>The navbar features:</p>
+      <ul>
+        <li>Responsive - the menu collapse/expand at screen width 678px breakpoint</li>
+        <li>Anchor element <strong>a</strong></li>
+        <li>Not link element <strong>p</strong></li>
+        <li>Dropdown elements with class <strong>.dropdown</strong> and <strong>ul li a</strong> elements</li>
+        <li>A simple integrated form</li>
+        <li>CSS variables customize fonts, colors and sizes</li>
+        <li>Helper classes <strong>.at-right</strong> and <strong>.at-center</strong> to reposition the menu</li>
+      </ul>
+  
+      <h2 id="about">Observe that:</h2>
+      <p>Every <strong>.dropdown</strong> div must have the following elements and structure, and the "toggle-1" must be a different pair for every set.</p>
+      <pre>
+           &lt;div class=&quot;dropdown&quot;&gt;
+             &lt;label for=&quot;<strong>toggle-1</strong>&quot;&gt;First Dropdown&lt;/label&gt;
+             &lt;input type=&quot;checkbox&quot; id=&quot;<strong>toggle-1</strong>&quot; /&gt;
+             &lt;ul&gt;
+               &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown 1st link&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown 2nd link&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown 3rd link&lt;/a&gt;&lt;/li&gt;
+               &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown 4th link&lt;/a&gt;&lt;/li&gt;
+             &lt;/ul&gt;
+          &lt;/div&gt;
+        </pre>
+      <p>This way each label opens it's exclusive/addressed dropdown list.</p>
+      <div id="filler" style="height: 50vh;"></div>
+    </main>
+  
+  </body>
+  </html>
