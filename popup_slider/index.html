@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Utkarsh Slider</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <h4
+    style="padding-left:20px;color:#000;font-weight:600;background-color: #fff;padding-top: 20px;padding-bottom: 20px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+    Created by: Utkarsh
+    Kushwaha</h4>
+
+  <div class="popup-btn" data-popup="popup-reg" id="slider">
+    <div class="slides">
+      <img src="https://hhsbanner.com/wp-content/uploads/2019/03/victoria_falls-900x300.jpg" width="100%" />
+    </div>
+
+    <div class="slides">
+      <img src="https://www.superiorwallpapers.com/flowers/flowers-blossom-wonderful-spring-season_2560x1024.jpg"
+        width="100%" />
+    </div>
+
+    <div class="slides">
+      <img
+        src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg"
+        width="100%" />
+    </div>
+
+    <div class="slides">
+      <img src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" width="100%" />
+    </div>
+
+    <div class="slides">
+      <img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg"
+        width="100%" />
+    </div>
+
+    <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+        class="dot"></span><span class="dot"></span></div>
+  </div>
+
+
+
+  <div id="popup-reg" class="popup">
+    <div class="popup-content">
+      <div class="event-header">
+        <h6>Don't be shy, say hi!</h6>
+      </div>
+      <form action="action.php" method="POST" id="send" class="send-form">
+        <div class="form-group">
+          <input type="text" placeholder="Enter name..." id="name" name="username" required="required">
+          <label for="name">
+            <i class="fa fa-user"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Enter mail..." id="mail" name="email" required="required">
+          <label for="mail">
+            <i class="fa fa-envelope"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Enter phone..." id="phone" name="contact" required="required">
+          <label for="phone">
+            <i class="fa fa-phone"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Enter message..." name="message" id="text"></textarea>
+          <label for="text" class="txt">
+            <i class="fa fa-commenting"></i>
+          </label>
+        </div>
+        <button type="submit" class="main-btn-rect" name="submit">
+          <i class="fa fa-paper-plane"></i>Send</button>
+      </form>
+      <span class="fade-out main-btn-circle">╳</span>
+    </div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
